@@ -1,15 +1,12 @@
 # Lisk Nano
 
-[![Build Status](https://jenkins.lisk.io/buildStatus/icon?job=lisk-nano/development)](https://jenkins.lisk.io/job/lisk-nano/job/development)
-[![Coverage Status](https://coveralls.io/repos/github/LiskHQ/lisk-nano/badge.svg?branch=development)](https://coveralls.io/github/LiskHQ/lisk-nano?branch=development)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
-[![Join the chat at https://gitter.im/LiskHQ/lisk](https://badges.gitter.im/LiskHQ/lisk.svg)](https://gitter.im/LiskHQ/lisk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![devDependencies Status](https://david-dm.org/liskHQ/lisk-nano/dev-status.png)](https://david-dm.org/liskHQ/lisk-nano?type=dev)
+
 
 ## Development
 
 ```
-git clone https://github.com/LiskHQ/lisk-nano.git
+git clone https://github.com/norenvelin/lisk-nano.git
 cd lisk-nano
 npm install
 npm run dev
@@ -102,7 +99,7 @@ Setup protractor
 ./node_modules/protractor/bin/webdriver-manager update
 ```
 
-Setup a lisk test node to run on localhost:4000 as described in https://github.com/LiskHQ/lisk#tests
+Setup a lisk test node to run on localhost:4000 as described in the [Lisk test documentation](https://github.com/LiskHQ/lisk#tests).
 
 And run it with [pm2](http://pm2.keymetrics.io/).
 
@@ -150,7 +147,7 @@ This program is free software: you can redistribute it and/or modify it under th
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-You should have received a copy of the [GNU General Public License](https://github.com/LiskHQ/lisk-nano/tree/master/LICENSE) along with this program.  If not, see <http://www.gnu.org/licenses/>.
+You should have received a copy of the [GNU General Public License](https://github.com/norenvelin/lisk-nano/blob/development/LICENSE) along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ***
 
